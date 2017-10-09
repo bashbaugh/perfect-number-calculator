@@ -1,0 +1,5 @@
+perfect numbers:perfect numbers:perfect numbers:perfect numbers:
+ 6
+ 28
+ 496
+ 8128
