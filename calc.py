@@ -8,6 +8,8 @@ with open("results.txt", "a") as f:
 
 def calculate():
     global currnum
+    if currnum % 6 == 0:
+      currnum = currnum
     divisors = []
     for x in range (1, currnum - 1):
         if currnum % x == 0:
@@ -20,4 +22,4 @@ def calculate():
     currnum += 1
 
 while True:
-    calculate()
+     hvgh = calculate()
