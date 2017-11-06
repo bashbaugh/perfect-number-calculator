@@ -1,4 +1,4 @@
-#Benjamin's perfect number calculator
+Benjamin's perfect number calculator
 
 currnum = 1
 
@@ -8,8 +8,6 @@ with open("results.txt", "a") as f:
 
 def calculate():
     global currnum
-    if currnum % 6 == 0:
-      currnum = currnum
     divisors = []
     for x in range (1, currnum - 1):
         if currnum % x == 0:
@@ -21,5 +19,5 @@ def calculate():
             f.write("\n " + str(currnum))
     currnum += 1
 
-while True:
-     hvgh = calculate()
+while currnum < 100000:
+    calculate()
